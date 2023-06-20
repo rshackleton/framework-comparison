@@ -1,10 +1,10 @@
-import { Button, Header } from 'ui';
-
 export default function Page() {
   return (
-    <>
-      <Header text="Web" />
-      <Button />
-    </>
+    <div>
+      <p>Hello world</p>
+      <p>
+        <a href="/counter">Go to counter example</a>
+      </p>
+    </div>
   );
 }

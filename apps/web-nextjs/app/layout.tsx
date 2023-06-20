@@ -5,7 +5,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <h1>Web - Next.js</h1>
+        </header>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
