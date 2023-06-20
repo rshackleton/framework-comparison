@@ -1,3 +1,5 @@
+import { Metadata } from 'next';
+
 export default function Page() {
   return (
     <div>
@@ -8,3 +10,7 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: 'Next.js - Home',
+};

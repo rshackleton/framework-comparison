@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Counter from '../../components/Counter';
 
 export default function CounterPage() {
@@ -8,3 +9,7 @@ export default function CounterPage() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: 'Next.js - Counter',
+};
