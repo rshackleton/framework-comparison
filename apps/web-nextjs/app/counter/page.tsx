@@ -3,7 +3,7 @@ import Counter from '../../components/Counter';
 export default function CounterPage() {
   return (
     <div>
-      <p>Hello world</p>
+      <p>Counter</p>
       <Counter defaultValue={1} />
     </div>
   );
