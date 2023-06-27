@@ -1,9 +1,14 @@
 ---
+import ColorOnVisible from '../components/ColorOnVisible';
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 ---
 
 <DefaultLayout title="Astro - Large Page">
   <div>
-    {Array.from(Array(1000)).map((_, index) => <div>Item {index}</div>)}
+    {
+      Array.from(Array(1000)).map((_, index) => (
+        <ColorOnVisible client:visible>Item {index}</ColorOnVisible>
+      ))
+    }
   </div>
 </DefaultLayout>

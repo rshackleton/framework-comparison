@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
+import ColorOnVisible from '../../components/ColorOnVisible';
 
 export default function CounterPage() {
   return (
     <div>
       {Array.from(Array(1000)).map((_, index) => (
-        <div key={index}>Item {index}</div>
+        <ColorOnVisible key={index}>Item {index}</ColorOnVisible>
       ))}
     </div>
   );
