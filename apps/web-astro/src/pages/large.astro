@@ -1,0 +1,9 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro';
+---
+
+<DefaultLayout title="Astro - Large Page">
+  <div>
+    {Array.from(Array(1000)).map((_, index) => <div>Item {index}</div>)}
+  </div>
+</DefaultLayout>
