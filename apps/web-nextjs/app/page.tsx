@@ -7,6 +7,9 @@ export default function Page() {
       <p>
         <a href="/counter">Go to counter example</a>
       </p>
+      <p>
+        <a href="/large">Go to large example</a>
+      </p>
     </div>
   );
 }
