@@ -10,6 +10,9 @@ export default function Page() {
       <p>
         <a href="/large">Go to large example</a>
       </p>
+      <p>
+        <a href="/server-component">Go to server component example</a>
+      </p>
     </div>
   );
 }

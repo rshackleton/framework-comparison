@@ -11,6 +11,9 @@ export default component$(() => {
       <p>
         <a href="/large">Go to large example</a>
       </p>
+      <p>
+        <a href="/pokemon">Go to server example</a>
+      </p>
     </div>
   );
 });
